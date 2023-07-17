@@ -12,7 +12,7 @@ Test data: the test data are simulated with n=40 and p=500 where there is a true
 
 multiple_changepoint_detection(data=testdata)
 
-The output will be:
+The output is:
 
 $Detected change points [1] 21
 
@@ -22,7 +22,7 @@ Real data (S&P500 index data): while the details of the real data are given in t
 
 multiple_changepoint_detection(data=SP500data)
 
-The output of this implementation will be:
+The output of this implementation with the default settings is:
 
 $Detected change points [1] 51 57 66 95 106 112 115
 
