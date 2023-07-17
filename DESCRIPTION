@@ -1,0 +1,20 @@
+Package: HDDchangepoint
+Type: Package
+Title: A distribution-free method for change point detection in high dimensional data
+Version: 1.0
+Author: Reza Drikvandi
+Maintainer: The package maintainer, Reza Drikvandi <reza.drikvandi@durham.ac.uk>
+Description: This package implements our algorithms for detecting single and multiple high dimensional change points
+             using new dissimilarity measure and distance matrices. The main functions are called "multiple_changepoint_detection" and 
+             "multiple_changepoint_detection_wbs" which, respectively, run our algorithms for multiple change point detection using recursive binary segmentation and wild binary segmentation. 
+             There are some other functions which can be used to calculate: "the new dissimilarity distance", "the proposed test statistic" and "single change point detection" 
+             Also, a test data set is included together with the real data set analysed in the paper
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1),
+         R.utils,
+         MASS,
+         matrixStats,
+         wbs
+RoxygenNote: 7.2.1
