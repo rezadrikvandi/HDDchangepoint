@@ -14,7 +14,7 @@ Details about this package can be found in the DESCRIPTION file. The main R func
 
 Two examples:
 
-1. Test data: the test data are simulated with n=40 and p=500 where there is a true change point at location 21. Below is the command to apply the R package to this test data along with the output:
+1) Test data: the test data are simulated with n=40 and p=500 where there is a true change point at location 21. Below is the command to apply the R package to this test data along with the output:
 
 multiple_changepoint_detection(data=testdata)
 
@@ -24,7 +24,7 @@ $Detected change points [1] 21
 
 $Corresponding p-values [1] 0
 
-2. Real data (S&P500 index data): while the details of the real data are given in the paper, below is a simple command "with default settings" to apply the R package to this real data set along with the output (note that in the paper we use wbs which takes longer to run - wbs is also available in the package via function "multiple_changepoint_detection_wbs"):
+2) Real data (S&P500 index data): while the details of the real data are given in the paper, below is a simple command "with default settings" to apply the R package to this real data set along with the output (note that in the paper we use wbs which takes longer to run - wbs is also available in the package via function "multiple_changepoint_detection_wbs"):
 
 multiple_changepoint_detection(data=SP500data)
 
