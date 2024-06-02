@@ -12,7 +12,7 @@ and then load it using library(HDDchangepoint)
 
 Details about this package can be found in the DESCRIPTION file. The main R function of the package is called "multiple_changepoint_detection" which can be applied for detecting multiple change points in high dimensional data using the method presented in the paper (there are other functions in the package to calculate other measures as detailed in the package). Also, there is a test data to try (see below for some details), as well as the real data set in the paper (see below for some details). Further details about these data sets can be found in the folder "data" in the package above.
 
-Examples:
+Two examples:
 
 Test data: the test data are simulated with n=40 and p=500 where there is a true change point at location 21. Below is the command to apply the R package to this test data along with the output:
 
