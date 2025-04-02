@@ -1,6 +1,6 @@
 This R package is for the following published paper:
 
-Drikvandi R. and Modarres R. (2024). "A distribution-free method for change point detection in non-sparse high dimensional data". Journal of Computational and Graphical Statistics. Published online: 23 Aug 2024. https://doi.org/10.1080/10618600.2024.2365733
+Drikvandi R. and Modarres R. (2024). "A distribution-free method for change point detection in non-sparse high dimensional data". Journal of Computational and Graphical Statistics. 34 (1), 290–305. https://doi.org/10.1080/10618600.2024.2365733
 
 You can install this R package using the following two commands in R:
 
